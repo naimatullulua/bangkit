@@ -6,7 +6,7 @@ This project focuses on exploring and visualizing data from the E-Commerce Publi
 ## Data Source
 The data used in this project comes from the following source:
 
-- E-Commerce Public Dataset
+- E-Commerce Public Dataset : https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/code 
 
 ## Requirements
 To run this project, you need to install the following Python packages:
