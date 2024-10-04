@@ -28,3 +28,23 @@ First, clone the repository:
 ```bash
 git clone https://github.com/naimatullulua/bangkit.git
 cd bangkit
+```
+### Create a new virtual environment
+```
+python -m venv venv
+```
+### Activate the virtual environment
+```
+venv\Scripts\activate
+```
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+### Prepare Data
+Ensure that you have the order_items_dataset.csv dan order_reviews_dataset.csv file in the same directory as dashboard.py. Adjust the file paths in dashboard.py if necessary
+## Running the dashboard
+```
+streamlit run dashboard.py
+```
+
