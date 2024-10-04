@@ -4,8 +4,8 @@ import seaborn as sns
 import streamlit as st
 
 # Load your datasets
-order_items= pd.read_csv("d:/KULIAH/SEMESTER VII/BANGKIT 2024/submission/data/order_items_dataset.csv")
-order_reviews= pd.read_csv("d:/KULIAH/SEMESTER VII/BANGKIT 2024/submission/data/order_reviews_dataset.csv")
+order_items= pd.read_csv("./data/order_items_dataset.csv")
+order_reviews= pd.read_csv("./data/order_reviews_dataset.csv")
 
 st.header("E-Commerce Dashboard")
 
